@@ -76,7 +76,8 @@ const CheckoutBox = (props) => {
         }
 
         await clearCart();
-        window.location.href = 'http://localhost:3000/login';
+        window.location.href = `${API_URL}/api/login`;
+        
     };
 
     useEffect(() => {

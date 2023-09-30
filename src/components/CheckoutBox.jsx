@@ -76,7 +76,7 @@ const CheckoutBox = (props) => {
         }
 
         await clearCart();
-        window.location.href = `${API_URL}/api/login`;
+        window.location.href = `https://main--lively-daffodil-df0457.netlify.app/login`;
         
     };
 

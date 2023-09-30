@@ -1,0 +1,49 @@
+.choose-item-container {
+    color: rgb(159, 94, 15);
+    padding: 10px;
+    max-width: 900px;
+    font-family: 'sans-serif', 'Poppins';
+}
+
+.choose-item-text {
+    color: white;
+}
+
+.choose-component-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.component-button {
+    font-family: 'sans-serif', 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    margin-right: 10px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+}
+
+.component-button:hover {
+    transform: scale(1.04);
+}
+
+.choose-component-icon {
+    width: 42px;
+    margin-right: 5px;
+}
+
+@media (min-width: 1100px) {
+    .component-button {
+        height: 65px;
+        font-size: 20px;
+    }
+
+}
+

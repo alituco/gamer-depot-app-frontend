@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Poppins:wght@300;400;500;600&family=Roboto+Slab&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+    z-index: 9999;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+  }
+  
+
+.inner-container {
+    background-color: rgb(255, 255, 255);
+    height: 96px;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.invisible-element {
+    width: 1180px;
+}
+
+.nav-options {
+    list-style-type: none;
+    display: flex;
+}
+.list-element {
+    padding-left: 30px;
+    transition: 0.5s;
+}
+
+.list-element:hover {
+  color: rgb(215, 6, 79);
+}
+
+
+#logo {
+    height: 96px;
+    cursor: pointer;
+}
+/* ...existing CSS... */
+
+.mobile-hamburger {
+    z-index: 3000;
+    align-self: center;
+    display: none; /* Hide the Hamburger icon by default */
+}
+  
+/* Show the nav options when the corresponding class is present */
+.nav-options.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 222, 222, 0.9); /* Semi-transparent black background */
+    z-index: 1000; 
+  }
+  
+  .nav-options.show ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-options.show .list-element {
+    
+    margin: 20px 20px;
+    font-size: 34px;
+    
+  }
+
+.nav-options.show .list-element button {
+    font-size: 34px;
+}
+
+.list-element button {
+    background: transparent;
+    border: none;
+    color: #333; /* Default color */
+    cursor: pointer;
+    
+  }
+  
+.close-button {
+    position: absolute;
+    right: 17px;
+    top: 16px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust the margin as needed */
+    z-index: 2000;
+  }
+
+.shopping-cart-list-item{
+  display: flex;
+}
+
+.shopping-cart-icon {
+  font-size: large;
+  cursor: pointer;
+} 
+
+
+/* Style the Sell button and dropdown */
+.list-element button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .list-element.active .sell-dropdown {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+
+  }
+  
+  .list-element.active .sell-dropdown a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+  }
+  
+  
+@media (max-width: 800px) {
+    .mobile-hamburger {
+    display: block; /* Show the Hamburger icon on mobile devices */
+    }   
+  
+    /* Hide the nav options on mobile when the Hamburger is visible */
+    .nav-options {
+      display: none;
+    }
+  
+    /* ...other responsive styles... */
+}
+  

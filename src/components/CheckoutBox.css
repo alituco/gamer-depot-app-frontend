@@ -1,0 +1,75 @@
+.checkout-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-information {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.checkout-information-box {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.checkout-information input:focus {
+    border-color: #a3a3a3;
+    box-shadow: 0px 0px 5px rgba(163, 163, 163, 0.5);
+}
+
+.checkout-information input[readonly] {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+.checkout-button {
+    margin-left: 70%;
+    margin-right: 20px;
+    font-family: 'sans-serif', 'Poppins';
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition: 0.4;
+}
+
+.checkout-button:hover {
+    transform: scale(1.02);
+    background-color: rgb(232, 12, 12);
+}
+
+.enter-checkout-details-text {
+    font-size: 30px;
+    margin-bottom: 9px;
+    font-family: 'sans-serif', 'Poppins';
+}
+
+.total-price-text{
+    font-family: 'Poppins', 'sans-serif';
+    margin-top: 8px;
+    font-size: 30px;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 4px;
+}

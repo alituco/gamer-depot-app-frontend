@@ -1,0 +1,49 @@
+/* OrderDetail.css */
+.order-detail-page {
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;  /* Vertically center .order-detail-container */
+    background-color: white; /* Light gray background to make content pop */
+}
+
+.order-detail-container {
+    max-width: 700px;
+    padding: 30px; /* Add some spacing inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Subtle shadow to elevate the box */
+    background-color: white;
+}
+
+.details-section {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.details-section p {
+    width: 45%; /* Adjust as needed */
+    margin: 10px 0;
+}
+
+.order-details-for-text {
+    border-bottom: 2px solid aquamarine; /* Horizontal line below the title */
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+    .order-detail-page {
+        height: 82vh;
+    }
+
+    .order-detail-container {
+        max-width: 260px;
+        font-size: 12px;
+    }
+    .details-section {
+        flex-direction: column;
+    }
+
+}

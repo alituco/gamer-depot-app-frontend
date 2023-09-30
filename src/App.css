@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Poppins:wght@300;400;500;600&family=Roboto+Slab&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+}
+
+
+.how-it-works-page {
+    margin-top: 100px;
+    height: 62vh;
+    background-color: white;
+}
+
+@media (max-width: 768px ) {
+    .how-it-works-page {
+        height: 130vh;
+    }
+}

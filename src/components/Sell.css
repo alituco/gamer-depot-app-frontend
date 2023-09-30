@@ -1,0 +1,21 @@
+.sell-page {
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sell-page-inner-element {
+    display: flex;
+    
+    border-radius: 10px;
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: auto;
+}
+
+.sell-page-sell-text {
+    font-size: 60px;
+    font-weight: 500;
+}

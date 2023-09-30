@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.big-container {
+    margin-top: 90px;
+    background-image: url("C:\Users\pee c\OneDrive\Documents\sell-gpu\client\gamer-depot\src\home-background-blur.png");
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.small-container {
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    max-width: 700px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#few-clicks {
+    color: #ff6347;
+    font-weight: 700;
+}
+
+.process-section {
+    width: 100%;
+    background-color: white;
+    padding: 60px 0;
+    margin-top: 40px;
+    
+}
+
+.process-container {
+    z-index: 0;
+    font-family: 'Poppins', 'sans-serif';
+    display: flex;
+    flex-direction: column;
+    max-width: 1180px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.process-title {
+    font-size: 50px;
+    color: #2e2e2e;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.process-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.step {
+    display: flex;
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+    color: #2e2e2e;
+}
+
+.step-icon {
+    color: white;
+    background-color: #ff6347;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.step-desc {
+    margin-left: 70px;
+}
+
+/* Your existing media queries here */

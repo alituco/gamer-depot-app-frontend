@@ -4,6 +4,7 @@ import './CheckoutBox.css';
 
 const CheckoutBox = (props) => {
     const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:4000';
+    console.log(API_URL);
     const { uid } = useContext(AuthContext);
     const [cartItems, setCartItems] = useState([]);
     const [errors, setErrors] = useState({});

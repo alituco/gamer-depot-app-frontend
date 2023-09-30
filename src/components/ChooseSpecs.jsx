@@ -79,7 +79,7 @@ const ChooseSpecs = (props) => {
                   <label> CHIPSET </label>
                   <select className='select-dropdown-box' 
                   onChange={(e) => setSelectedChipset(e.target.value)}>
-                    <option value={null}> Select... </option>
+                    <option className='choose-item-label' value={null}> Select... </option>
                     <option value="AMD"> AMD </option>
                     <option value="NVIDIA"> Nvidia</option>
                   </select>
@@ -89,7 +89,7 @@ const ChooseSpecs = (props) => {
                   <label> SERIES </label>
                   <select className='select-dropdown-box' 
                   onChange={(e) => setSelectedSeries(e.target.value)}>
-                    <option value={null}> Select... </option>
+                    <option className='choose-item-label' value={null}> Select... </option>
                     {series.map((series) => (
                       <option value={series}> {series} </option>
                     ))}
@@ -99,7 +99,7 @@ const ChooseSpecs = (props) => {
               <div className='label-and-button'>
                 <label> MODEL </label>
                 <select value={selectedCard} onChange={handleGetCardId} className='select-dropdown-box' >
-                  <option value={null}> Select... </option>
+                  <option className='choose-item-label' value={null}> Select... </option>
                   {models.map((model) => (
                     <option value={model}>
                     {model}

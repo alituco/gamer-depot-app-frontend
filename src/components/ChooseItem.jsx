@@ -32,7 +32,7 @@ const ChooseItem = () => {
             <span>
               <img name={component.name} src={component.icon} className='choose-component-icon' alt={component.label} />
             </span>
-            <a name={component.name}>{component.label}</a>
+            <a className='choose-item-label' name={component.name}>{component.label}</a>
           </button>
         ))}
       </div>

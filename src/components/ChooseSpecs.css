@@ -6,6 +6,7 @@
 .choose-specifications-container {
     background-color: rgb(253, 253, 253);
     margin-top: 20px;
+    color: black;
     border-radius: 15px;
     border: 2.5px solid rgb(60, 54, 16);
 }

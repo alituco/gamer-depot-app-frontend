@@ -10,7 +10,7 @@ const ChooseItem = () => {
   const [selectedPart, setSelectedPart] = useState('graphics-card');
 
   useEffect(() => {
-    // TODO: Add useEffect logic if needed
+    
   }, [selectedPart]);
 
   const changePart = (event) => {

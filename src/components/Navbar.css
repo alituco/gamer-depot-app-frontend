@@ -53,15 +53,14 @@ body, html {
     height: 96px;
     cursor: pointer;
 }
-/* ...existing CSS... */
+
 
 .mobile-hamburger {
     z-index: 3000;
     align-self: center;
-    display: none; /* Hide the Hamburger icon by default */
+    display: none; 
 }
   
-/* Show the nav options when the corresponding class is present */
 .nav-options.show {
     display: flex;
     flex-direction: column;
@@ -71,7 +70,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(240, 222, 222, 0.9); /* Semi-transparent black background */
+    background-color: rgba(240, 222, 222, 0.9); 
     z-index: 1000; 
   }
   
@@ -99,7 +98,7 @@ body, html {
 .list-element button {
     background: transparent;
     border: none;
-    color: #333; /* Default color */
+    color: #333; 
     cursor: pointer;
     
   }
@@ -113,7 +112,7 @@ body, html {
     color: white;
     font-size: 25px;
     cursor: pointer;
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 20px;
     z-index: 2000;
   }
 
@@ -127,7 +126,7 @@ body, html {
 } 
 
 
-/* Style the Sell button and dropdown */
+
 .list-element button {
     background: transparent;
     border: none;
@@ -155,14 +154,14 @@ body, html {
   
 @media (max-width: 800px) {
     .mobile-hamburger {
-    display: block; /* Show the Hamburger icon on mobile devices */
+    display: block; 
     }   
   
-    /* Hide the nav options on mobile when the Hamburger is visible */
+    
     .nav-options {
       display: none;
     }
   
-    /* ...other responsive styles... */
+    
 }
   

@@ -1,18 +1,18 @@
-/* OrderDetail.css */
+
 .order-detail-page {
     margin-top: 190px;
     display: flex;
     justify-content: center;
     height: 60vh;
-    align-items: center;  /* Vertically center .order-detail-container */
-    background-color: white; /* Light gray background to make content pop */
+    align-items: center; 
+    background-color: white; 
 }
 
 .order-detail-container {
     max-width: 700px;
-    padding: 30px; /* Add some spacing inside the container */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Subtle shadow to elevate the box */
+    padding: 30px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); 
     background-color: white;
 }
 
@@ -23,12 +23,12 @@
 }
 
 .details-section p {
-    width: 45%; /* Adjust as needed */
+    width: 45%; 
     margin: 10px 0;
 }
 
 .order-details-for-text {
-    border-bottom: 2px solid aquamarine; /* Horizontal line below the title */
+    border-bottom: 2px solid aquamarine; 
     padding-bottom: 15px;
     margin-bottom: 20px;
 }

@@ -23,7 +23,7 @@
 
   .sign-in-button {
     max-width: 160px;
-    background-color: #b82717; /* Red color for Sign Out */
+    background-color: #b82717; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -34,19 +34,19 @@
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.3s, transform 0.3s;
-    /* Optional: Add a subtle shadow to make it pop */
+    
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     margin-right: 0px;
   }
 
   .sign-in-button:hover {
-    background-color: #ff1900; /* Slightly darker red when hovered */
+    background-color: #ff1900; 
     transform: scale(1.05);
-    font-weight: 600;    /* Slightly enlarge the button when hovered */
+    font-weight: 600;   
   }
   .sign-out-button {
     max-width: 90px;
-    background-color: #b82717; /* Red color for Sign Out */
+    background-color: #b82717; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -57,14 +57,14 @@
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.3s, transform 0.3s;
-    /* Optional: Add a subtle shadow to make it pop */
+   
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     margin-right: 0px;
 }
 
-/* Hover effect */
+
 .sign-out-button:hover {
-    background-color: #ff1900; /* Slightly darker red when hovered */
+    background-color: #ff1900; 
     transform: scale(1.05);
     font-weight: 600;     
 }
@@ -82,7 +82,7 @@
     margin-top: 120px;
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     background-color: white;
   }
   

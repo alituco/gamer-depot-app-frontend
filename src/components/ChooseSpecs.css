@@ -58,9 +58,9 @@
 }
 
 .select-box-add-part-to-cart:hover {
-    background-color: #ff1900; /* Slightly darker red when hovered */
+    background-color: #ff1900;
     transform: scale(1.06);
-    color: azure;    /* Slightly enlarge the button when hovered */
+    color: azure;    
   }
 
 @media (max-width: 768px) {

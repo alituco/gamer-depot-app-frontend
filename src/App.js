@@ -7,8 +7,8 @@ import './App.css'
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx'; 
 import FirstSection from './components/FirstSection.jsx';
-import ShoppingCart from './components/ShoppingCart.jsx';  // Make sure to import the ShoppingCart component
-import Login from './components/Login.jsx';  // Make sure to import the ShoppingCart component
+import ShoppingCart from './components/ShoppingCart.jsx'; 
+import Login from './components/Login.jsx';  
 import ProcessSection from './components/ProcessSection.jsx';
 import ProcessSectionPage from './components/ProcessSectionPage.jsx';
 import Sell from './components/Sell.jsx';
